@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport">  
+         
+        <link rel="stylesheet" href="css/main.css">
+        
+        <title>My CV</title>
+        <link rel="icon" type="image/x-icon" href="img/Glyphish-Glyphish-82-dog-paw.ico">
+    </head>
+    <body>
+        <aside>
+            <img src="img/document_paperclip_list_paper_icon_219454.ico" width="200" height="185">
+            <p class="center">
+                
+                Curriculum vitae
+            </p>
+            <ul>
+                <li>+32468455392</li>
+                <a href="mailto:kh82olga@protonmail.com"><li>Contact by mail</li></a>
+                <a href="https://www.linkedin.com/in/olga-kharchuk-46012417a"><li>LinkedIn</li></a>
+            
+            <li><button onclick="collapse2()">
+             Education   
+            </button></li>
+            <script>
+                function collapse2(){
+                    document.getElementById("education").style.display="block"
+                    document.getElementById("experience").style.display="none"
+                    document.getElementById("skills").style.display="none"
+                    document.getElementById("languages").style.display="none"
+                }
+            </script>
+            <li><button onclick="collapse1()">
+                Work Experience  
+            </button></li>
+               <script>
+                   function collapse1(){
+                       document.getElementById("education").style.display="none"
+                       document.getElementById("experience").style.display="block"
+                       document.getElementById("skills").style.display="none"
+                       document.getElementById("languages").style.display="none"
+                   }
+               </script>
+            
+            <li><button onclick="collapse3()">
+                Skills  
+               </button></li>
+               <script>
+                   function collapse3(){
+                       document.getElementById("experience").style.display="none"
+                       document.getElementById("education").style.display="none"
+                       document.getElementById("skills").style.display="block"
+                       document.getElementById("languages").style.display="none"
+                   }
+               </script>
+            <li><button onclick="collapse4()">
+                Languages  
+               </button></li>
+               <script>
+                   function collapse4(){
+                       document.getElementById("experience").style.display="none"
+                       document.getElementById("education").style.display="none"
+                       document.getElementById("skills").style.display="none"
+                       document.getElementById("languages").style.display="block"
+                   }
+               </script>
+            </ul>  
+                
+        </aside>
+        <img class="border" src="img/cv_foto.jpg" width="200" height="250">
+        <h1>Olga Kharchuk</h1>
+        <h2>.NET Developer</h2>
+        <h3>"I rely on my wings"</h3>
+        <h4>About me:</h4>    
+        <h5> I like helping people solve their problems. I like to fix items or restore them.
+            I work best if there are clear and detailed instructions. I am used to work independently
+            although I like to work in team and be creative. I have a high level of work ethics so I always plan my tasks to ensure the desired result
+            and enjoy doing my tasks well and on time. I would like to work in a friendly and warm atmosphere and appreciate a good work-life balance. </h5>
+           
+        
+        
+        <div id="experience" style="display: none;">
+            <table>
+            <tr>  
+                <th colspan="2">Work Experience</th>
+            </tr>
+            <tr>
+                <td>2013-2020</td>
+                <td>All Team Services, Brussels</td>
+            </tr>
+            <tr>
+                <td>2005-2013</td>
+                <td>S.A.C. Dora Baltea, Villareggia, Italy</td>
+            </tr>
+            <tr>
+                <td>2002-2003</td>
+                <td>Hotel Heisshof, Schladming, Austria</td>
+            </tr>
+            </table>
+        </div> 
+        <div id="education" style="display: none;">
+            <table>
+            <tr>
+                <th colspan="2">Education</th>  
+            </tr>
+            <tr>
+                <td>2021-2022</td>
+                <td>.NET Developer. INTEC Brussel, pl.Rouppe 16, Brussels</td>
+            </tr>
+            <tr>
+                <td>2019-now</td>
+                <td>Dutch Language Course. CVO Semper, Brussels</td>
+            </tr>
+            <tr>
+                <td>2003-2005</td>
+                <td>Italian Language Course. Ivrea, Italy</td>
+            </tr>
+            <tr>
+                <td>1997-2000</td>
+                <td>Technical Secondary Education. Equality recognized by NARIC Flanders</td>
+            </tr>
+            </table>
+        </div> 
+        <div id="skills" style="display: none;">
+            <table >
+            <tr>
+                <th colspan="3">Skills</th>
+            </tr>
+            <tr>
+                <td>C#</td>
+                <td>.NET</td>
+                <td>.NET Core</td>
+            </tr>
+            <tr>
+                <td>OOP</td>
+                <td>SOLID</td>
+                <td>LINQ</td>
+            </tr>
+            <tr>
+                <td>Windows Forms</td>
+                <td>SQL Server</td>
+                <td>Dapper</td>
+            </tr>
+            <tr>
+                <td>Entity Framework Core</td>
+                <td>ASP.NET MVC Core</td>
+                <td>HHTML 5</td>
+            </tr>
+            <tr>
+                <td>Javascript</td>
+                <td>CSS</td>
+                <td>Bootstrap</td>
+            </tr>
+            </table>
+        </div> 
+        <div id="languages" style="display: none;">
+            <table>
+            <tr>
+                <th colspan="2">Languages</th>  
+            </tr>
+            <tr>
+                <td>Russian</td>
+                <td>Native</td>
+            </tr>
+            <tr>
+                <td>Italian</td>
+                <td>Fluent</td>
+            </tr>
+            <tr>
+                <td>Ukrainian</td>
+                <td>Proficient</td>
+            </tr>
+            <tr>
+                <td>Dutch</td>
+                <td>Proficient</td>
+            </tr>
+            <tr>
+                <td>French</td>
+                <td>Conversational</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>Conversational</td>
+            </tr>
+            <tr>
+                <td>German</td>
+                <td>Conversational</td>
+            </tr>
+            </table>
+        </div> 
+          
+    </body>
+</html>

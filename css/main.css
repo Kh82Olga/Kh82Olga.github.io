@@ -1,0 +1,128 @@
+   *{
+        max-width: 800px;
+        
+    }
+    body{
+        background-color: rgb(219, 175, 218);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    aside{
+        
+        width: 25%;
+        height: 730px;
+        padding-top: 40px;
+        float: left;
+        font-style: normal;
+        font-size: x-large;
+        border: 1px solid;
+        background-color: rgb(153, 110, 152);
+        
+    }
+    button{
+        background-color: rgb(153, 110, 152); 
+        border: none; 
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-size: large;
+        padding-left: 0;
+        
+    }
+    div#content {
+        overflow: hidden;
+        display: none;
+    }
+    .center {
+        text-align: center; 
+           
+    }
+    .border{
+        border: 3px solid rgb(92, 72, 91);
+    }
+    img{
+        
+        float: right;
+        
+        border-radius: 8px;
+    }
+    h1{
+        font-size: xx-large;
+        text-align: center; 
+        text-shadow: 3px 3px 3px rgb(153, 110, 152)  
+    }
+    h2{
+        font-size: x-large;
+        text-align: center; 
+        text-shadow: 3px 3px 3px rgb(153, 110, 152)  
+    }
+
+    h3{
+        font-size: x-large;
+        font-style: italic;
+        text-align: center;
+        margin-top: 100px;
+    }
+    h4{   
+    
+        border: 3px solid rgb(92, 72, 91);
+        border-radius: 8px;
+        margin-top: 100px;
+        margin-left: 26%;
+        padding-left: 10px;     
+    }
+    h5{
+        font-size: large;
+        font-style: italic;
+        text-align: center;
+        
+    }
+    
+    table, td,tr,th{
+        border: 1px solid;
+        border-collapse: collapse;
+        width: 50%;
+        font-size: large;
+        
+    }
+    table{
+
+        margin: auto;
+        width: 73%;
+    }
+    
+    th{
+        background-color: rgb(153, 110, 152);
+    }
+    tr:nth-child(odd){
+        background-color: rgb(219, 175, 218);
+    }
+    td{
+        padding: 5px;
+        width: auto;
+    }
+    ul{
+        list-style-type: disc;
+        font-size: large;
+    }
+    ol{
+        margin-left: 26%;
+        font-size: large;
+    }
+    
+    a:link{
+        color: black;
+        text-decoration: none;
+    }
+    a:visited {
+        color: black;
+        text-decoration: none;
+    }
+      
+    a:hover {
+        color: blue;
+        text-decoration: none;
+    }
+    button:hover{
+        color: blue;
+        text-decoration: none;
+    }
+    
